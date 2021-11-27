@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&family=Open+Sans+Condensed:wght@300&display=swap');
+body {
+    background-image: url("https://images.unsplash.com/photo-1433264058539-880eb8412c9d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.curtains {
+    height: 100vh;
+    position: absolute;
+    opacity: 0.9;
+}
+
+#preloader {
+    height: 100vh;
+    position: absolute;
+    background-color: #333;
+    background-image: url("309.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 4444444;
+}
+
+.data {
+    position: absolute;
+    z-index: 3;
+}
+
+.data .navbar-brand {
+    font-size: 30px;
+    font-family: 'Festive', cursive;
+}
+
+.data ul #globe i {
+    font-size: 25px;
+}
+
+.data ul #globe {
+    position: absolute;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data ul #search {
+    width: 200px;
+    color: #CFCECE;
+    background-color: unset;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    outline-style: none;
+    border-bottom: 01px solid #16F044;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data ul #love i {
+    font-size: 25px;
+}
+
+.data #time {
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: 2px;
+    font-size: 50px;
+}
+
+#main-data #type {
+    font-size: 20px;
+}
+.data #time{
+    width: 100%;
+}
+
+.data #main-data #meridian {
+    font-size: 20px;
+}
+
+.data #main-data h5 {
+    letter-spacing: 2px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data .row #main-data #day {
+    margin-top: -25px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data .row #main-data .current_temp {
+    top: -30px;
+    left: 60px;
+    position: relative;
+}
+
+.data .row #main-data #current_temp {
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/*sub-data*/
+.data #sub-data {
+    padding-top: 50px;
+    padding-left: 230px;
+    letter-spacing: 2px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.data #sub-data span {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.data #sub-data span i {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+
+.data #sub-data #humidity {
+    margin-left: 40px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data #sub-data #pressure {
+    margin-left: 40px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.data #sub-data #weather {
+    margin-left: 40px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.data #sub-data #wind {
+    margin-left: 40px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#model {
+    border-radius: 20px;
+    display: block;
+}
+
+.data .row .card {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    width: 300px;
+    letter-spacing: 1px;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: unset;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.data .row .card #temp {
+    margin-top: -20px;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.data .row .card h6 {
+    margin-top: -5px;
+}
+
+
+/*google map*/
+
+#map {
+    position: absolute;
+    z-index: 444444;
+}
+
+#thankModel {
+    top: 20%;
+    left: 10%;
+    font-family: 'Festive', cursive;
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    z-index: 4444;
+}
+
+#thankModel a {
+    font-size: 18px;
+}
+
+#thankModel #title {
+    letter-spacing: 2px;
+}
+
+#thankModel .col-sm-6 h4 {
+    letter-spacing: 2px;
+}
+
+#thankModel .col-sm-6 h6 {
+    letter-spacing: 2px;
+}
+
+#thankModel .col-sm-6 h6 b {
+    letter-spacing: 2px;
+}
+
+#curtains {
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 4443;
+}
+
+/* responsive code using media query*/
+@media(max-width: 1100px){
+    /*hide the right side horizontal data nav on resize | mobile view */
+    #model{
+        display: none;
+    }
+}
